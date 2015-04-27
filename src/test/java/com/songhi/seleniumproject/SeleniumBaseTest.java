@@ -23,12 +23,6 @@ public class SeleniumBaseTest {
 		props = new Properties();
 		String fileName = "target/classes/config.properties";
 		props.load(new FileInputStream(fileName));
-		//InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream(fileName);
-		//if (inputStream != null) {
-		//	props.load(inputStream);
-		//} else {
-		//	throw new FileNotFoundException("property file " + fileName + " not found in classpath");
-		//}
 	}
 	
 	@Before
